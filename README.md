@@ -8,3 +8,7 @@ Notable Features:<br />
 -Random dungeon generator: Creates the impression of a series of rooms connected by corridors.<br />
 -Monster tracking: Different monsters will track and attack the player in different ways.<br />
 -Inventory: Players can pickup, equip, and use different weapons and scrolls.<br />
+
+Playing the Game:<br/>
+You can play the game by running the Debug/CS32-Project3.exe file.<br/>
+Instructions are listed in Instructions.txt
