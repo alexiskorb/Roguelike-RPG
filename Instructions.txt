@@ -1,0 +1,92 @@
+Instructions
+
+--------------------------------------------------------------------------------
+
+You control an adventurer exploring a dungeon. Your goal is descend through the dungeon and get the golden idol. You win if you retrieve the idol, and lose if you die.
+
+--------------------------------------------------------------------------------
+
+Symbols:
+@: Your character
+ : Empty space
+#: Wall
+>: Staircase 
+&: Golden Idol
+): Weapon
+?: Scroll
+B: Bogeyman
+D: Dragon
+G: Goblin
+S: Snakewoman
+
+--------------------------------------------------------------------------------
+
+Stats:
+
+Hit points: Health
+Armor: Decreases chance of being hit
+Strength: Increases damage
+Dexterity: Increases chance of hitting, and decreases chance of being hit
+
+--------------------------------------------------------------------------------
+
+Enemies:
+
+Bogeymen: Bogeymen wield magic axes and will attempt to move towards the player if they are within 5 spaces of the player. Bogeymen have a chance to drop their magic axe upon death. Bogeymen are medium weak monsters.
+
+Dragons: Dragons wield long swords and will only attack players next to them. They have a chance each turn to regenerate hit points. Dragons always drop scrolls upon death. Dragons are strong monsters.
+
+Goblins: Goblins wield short swords and will chase down players if they are within 15 spaces of the player. Goblins are weak monsters.
+
+Snakewomen: Snakewomen wield magic fangs and will attempt to move towards the player if they are within 3 spaces of the player. Snakewomen have a chance to drop a magic fang upon death. Snakewomen are medium strong monsters.
+
+--------------------------------------------------------------------------------
+
+Weapons:
+
+Short Sword: Low damage
+Long Sword: Medium damage and slightly increased chance to hit
+Magic Axe: High damage and increased chance to hit
+Magic Fang of Sleep: Low damage and slightly increased chance to hit. Has a 20% chance to put the target to sleep for a short time.
+
+
+--------------------------------------------------------------------------------
+
+Scrolls:
+
+Scroll of Telportation: Teleport to a random location
+Scroll of Raise Strength: Increases strength
+Scroll of Enhance Health: Incrases maximum hit points
+Scroll of Improve Armor: Increases armor
+Scroll of Enhance Dexterity: Increases dexterity
+
+--------------------------------------------------------------------------------
+
+Commands:
+
+Arrow Keys: Move your player or attack an adjacent enemy
+- You can move onto any space not occupied by a wall or a monster. Attempting to move into an enemy will cause the player to attack the enemy.
+
+g: Get an object. 
+- If you are on the same space as a weapon, scroll, or golden idol, you will pick up the object. Otherwise, you will do nothing.
+
+w: Wield a weapon.
+- Pressing w will open your inventory. You can choose a weapon to wield by pressing the key of the letter next to the weapon you want.
+
+r: Read a Scroll
+- Pressing r will open your inventory. You can choose a scroll to read by pressing the key of the letter next to the scroll you want.
+
+i: Display the inventory
+- A list of all items will be displayed
+
+>: Use a staircase
+- If you are on a space with a staircase, you can press > to move down a level of the dungeon.
+
+q: Quit
+- This will exit the game.
+
+c: Cheat
+- This will set your strength to 9, set your hit point maximum to 50, and set your current hit points to 50.
+
+
+
